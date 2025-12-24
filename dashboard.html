@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+<h2>Smart Shoe Health Monitor</h2>
+<span class="connected">● Connected</span>
+</header>
+<section class="cards">
+<div class="card green"><p>Glucose</p><h2>89 mg/dL</h2></div>
+<div class="card green"><p>Heart Rate</p><h2>84 BPM</h2></div>
+<div class="card green"><p>Blood Pressure</p><h2>112/79</h2></div>
+<div class="card green"><p>Temperature</p><h2>98.6°F</h2></div>
+</section>
+<section class="grid">
+<div class="chart-card"><canvas id="healthChart"></canvas></div>
+</section>
+<script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body{font-family:Segoe UI;background:#f4fbff;margin:0}
+header{display:flex;justify-content:space-between;padding:15px;background:#fff}
+.connected{color:green}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:20px}
+.card{background:white;padding:15px;border-radius:12px}
+.green h2{color:#22c55e}
+.auth-body{display:flex;justify-content:center;align-items:center;height:100vh}
+.auth-container{width:400px}
+.row{display:flex;gap:10px}
+input,select{width:100%;padding:10px;margin:6px 0}
+button{width:100%;padding:12px;background:#10b981;color:white;border:none;border-radius:10px}
+.grid{padding:20px}
+.chart-card{background:white;padding:20px;border-radius:14px}
